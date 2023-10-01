@@ -56,7 +56,8 @@ a{
 }
 a :hover{
     color:rgb(156, 156, 225);
-    font-size: 1.04rem;
+    /* font-size: 1.04rem; */
+    
 }
 #element{
     color:blueviolet;
@@ -150,6 +151,7 @@ footer ul{
 }
 
 #Resume{
+    border:2px solid white ;
     background-color: darkslateblue;
 width: 150px;
     
@@ -157,6 +159,7 @@ width: 150px;
 #Github{
     background-color: rgba(254, 254, 254, 0.498);
     margin-left: 20px;
+    border:2px solid white ;
 }
 .leftsection #Resume:hover {
     background-color: rgb(88, 88, 224);
@@ -164,7 +167,7 @@ width: 150px;
     transition: background 0.3s ease-in-out;
     border: 2px solid white;
     border-radius: 7px;
-    width: auto;
+   
 }
 .leftsection #Github:hover {
     background-color: plum;
